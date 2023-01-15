@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		F9B6B62729735187003DF4A8 /* BudgetBlissApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B6B62629735187003DF4A8 /* BudgetBlissApp.swift */; };
-		F9B6B62929735187003DF4A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B6B62829735187003DF4A8 /* ContentView.swift */; };
 		F9B6B62B29735188003DF4A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B6B62A29735188003DF4A8 /* Assets.xcassets */; };
 		F9B6B62E29735188003DF4A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B6B62D29735188003DF4A8 /* Preview Assets.xcassets */; };
 		F9B6B63829735188003DF4A8 /* BudgetBlissTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B6B63729735188003DF4A8 /* BudgetBlissTests.swift */; };
 		F9B6B64229735188003DF4A8 /* BudgetBlissUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B6B64129735188003DF4A8 /* BudgetBlissUITests.swift */; };
 		F9B6B64429735188003DF4A8 /* BudgetBlissUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B6B64329735188003DF4A8 /* BudgetBlissUITestsLaunchTests.swift */; };
+		F9F12C2629748C8200F815E3 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F12C2529748C8200F815E3 /* MainTabView.swift */; };
+		F9F12C2829748C9F00F815E3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F12C2729748C9F00F815E3 /* HomeView.swift */; };
+		F9F12C2A29748CAF00F815E3 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F12C2929748CAF00F815E3 /* DashboardView.swift */; };
+		F9F12C2C29748CB700F815E3 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F12C2B29748CB700F815E3 /* ProfileView.swift */; };
+		F9F12C2E29748CD200F815E3 /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F12C2D29748CD200F815E3 /* WalletView.swift */; };
+		F9F12C3029748D0900F815E3 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F12C2F29748D0900F815E3 /* CreateView.swift */; };
+		F9F12C352974988500F815E3 /* BalanceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F12C342974988500F815E3 /* BalanceCardView.swift */; };
+		F9F12C37297498DD00F815E3 /* GradientCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F12C36297498DD00F815E3 /* GradientCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,6 @@
 /* Begin PBXFileReference section */
 		F9B6B62329735187003DF4A8 /* BudgetBliss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudgetBliss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B6B62629735187003DF4A8 /* BudgetBlissApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetBlissApp.swift; sourceTree = "<group>"; };
-		F9B6B62829735187003DF4A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F9B6B62A29735188003DF4A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9B6B62D29735188003DF4A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F9B6B63329735188003DF4A8 /* BudgetBlissTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudgetBlissTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +50,14 @@
 		F9B6B63D29735188003DF4A8 /* BudgetBlissUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudgetBlissUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B6B64129735188003DF4A8 /* BudgetBlissUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetBlissUITests.swift; sourceTree = "<group>"; };
 		F9B6B64329735188003DF4A8 /* BudgetBlissUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetBlissUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F9F12C2529748C8200F815E3 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		F9F12C2729748C9F00F815E3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F9F12C2929748CAF00F815E3 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		F9F12C2B29748CB700F815E3 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F9F12C2D29748CD200F815E3 /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		F9F12C2F29748D0900F815E3 /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		F9F12C342974988500F815E3 /* BalanceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceCardView.swift; sourceTree = "<group>"; };
+		F9F12C36297498DD00F815E3 /* GradientCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +108,13 @@
 		F9B6B62529735187003DF4A8 /* BudgetBliss */ = {
 			isa = PBXGroup;
 			children = (
-				F9B6B62629735187003DF4A8 /* BudgetBlissApp.swift */,
-				F9B6B62829735187003DF4A8 /* ContentView.swift */,
-				F9B6B62A29735188003DF4A8 /* Assets.xcassets */,
+				F9F12C1E29748B6600F815E3 /* Application */,
+				F9F12C1F29748BF300F815E3 /* Models */,
+				F9F12C2029748BFC00F815E3 /* Views */,
+				F9F12C2129748C0A00F815E3 /* ViewModels */,
+				F9F12C2229748C1400F815E3 /* Services */,
+				F9F12C2429748C3400F815E3 /* Helpers */,
+				F9F12C2329748C2C00F815E3 /* Extensions */,
 				F9B6B62C29735188003DF4A8 /* Preview Content */,
 			);
 			path = BudgetBliss;
@@ -125,6 +143,73 @@
 				F9B6B64329735188003DF4A8 /* BudgetBlissUITestsLaunchTests.swift */,
 			);
 			path = BudgetBlissUITests;
+			sourceTree = "<group>";
+		};
+		F9F12C1E29748B6600F815E3 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F9B6B62629735187003DF4A8 /* BudgetBlissApp.swift */,
+				F9B6B62A29735188003DF4A8 /* Assets.xcassets */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		F9F12C1F29748BF300F815E3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F9F12C2029748BFC00F815E3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F9F12C2529748C8200F815E3 /* MainTabView.swift */,
+				F9F12C2729748C9F00F815E3 /* HomeView.swift */,
+				F9F12C2929748CAF00F815E3 /* DashboardView.swift */,
+				F9F12C2F29748D0900F815E3 /* CreateView.swift */,
+				F9F12C2D29748CD200F815E3 /* WalletView.swift */,
+				F9F12C2B29748CB700F815E3 /* ProfileView.swift */,
+				F9F12C332974981700F815E3 /* ViewComponents */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F9F12C2129748C0A00F815E3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F9F12C2229748C1400F815E3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F9F12C2329748C2C00F815E3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F9F12C2429748C3400F815E3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F9F12C332974981700F815E3 /* ViewComponents */ = {
+			isa = PBXGroup;
+			children = (
+				F9F12C342974988500F815E3 /* BalanceCardView.swift */,
+				F9F12C36297498DD00F815E3 /* GradientCard.swift */,
+			);
+			path = ViewComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +342,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9B6B62929735187003DF4A8 /* ContentView.swift in Sources */,
+				F9F12C2E29748CD200F815E3 /* WalletView.swift in Sources */,
+				F9F12C2829748C9F00F815E3 /* HomeView.swift in Sources */,
+				F9F12C2A29748CAF00F815E3 /* DashboardView.swift in Sources */,
+				F9F12C37297498DD00F815E3 /* GradientCard.swift in Sources */,
+				F9F12C352974988500F815E3 /* BalanceCardView.swift in Sources */,
+				F9F12C2C29748CB700F815E3 /* ProfileView.swift in Sources */,
+				F9F12C3029748D0900F815E3 /* CreateView.swift in Sources */,
 				F9B6B62729735187003DF4A8 /* BudgetBlissApp.swift in Sources */,
+				F9F12C2629748C8200F815E3 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
