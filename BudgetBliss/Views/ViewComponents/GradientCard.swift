@@ -8,18 +8,14 @@
 import SwiftUI
 
 struct GradientCard: View {
-	var width: CGFloat?
-	var height: CGFloat?
-
 	var body: some View {
-		RoundedRectangle(cornerRadius: 20)
+		RoundedRectangle(cornerRadius: 24)
 			.fill(LinearGradient(
 				gradient: Gradient(
 					colors: [.purple, .orange]),
 				startPoint: .bottomLeading,
 				endPoint: .topTrailing))
-			.frame(width: width, height: height)
-		
+			.shadow(color: .black.opacity(0.2), radius: 10)
 	}
 }
 
