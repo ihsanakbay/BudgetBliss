@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F96DC68D297C476A00047430 /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96DC68C297C476A00047430 /* FirebaseService.swift */; };
+		F96DC691297C48E000047430 /* ServiceErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96DC690297C48E000047430 /* ServiceErrors.swift */; };
+		F96DC693297C4B1C00047430 /* FirebaseService+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96DC692297C4B1C00047430 /* FirebaseService+Extension.swift */; };
+		F96DC697297C4E0B00047430 /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96DC696297C4E0B00047430 /* TransactionListViewModel.swift */; };
+		F96DC69B297C7C3D00047430 /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F96DC69A297C7C3D00047430 /* TransactionViewModel.swift */; };
+		F99F1A28297B3ACB000D9EA4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F99F1A27297B3ACB000D9EA4 /* GoogleService-Info.plist */; };
+		F99F1A2B297B3B71000D9EA4 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F99F1A2A297B3B71000D9EA4 /* FirebaseAuth */; };
+		F99F1A2D297B3B71000D9EA4 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F99F1A2C297B3B71000D9EA4 /* FirebaseFirestore */; };
+		F99F1A2F297B3B71000D9EA4 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F99F1A2E297B3B71000D9EA4 /* FirebaseFirestoreSwift */; };
+		F99F1A31297B3B71000D9EA4 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F99F1A30297B3B71000D9EA4 /* FirebaseStorage */; };
+		F99F1A39297B3EC4000D9EA4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99F1A38297B3EC4000D9EA4 /* User.swift */; };
 		F9B26F4F29773C59003192B3 /* CurrencyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B26F4E29773C59003192B3 /* CurrencyLabel.swift */; };
 		F9B26F5129773FCF003192B3 /* NumberFormatter+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B26F5029773FCF003192B3 /* NumberFormatter+Extension.swift */; };
 		F9B6B62729735187003DF4A8 /* BudgetBlissApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B6B62629735187003DF4A8 /* BudgetBlissApp.swift */; };
@@ -15,7 +26,11 @@
 		F9B6B63829735188003DF4A8 /* BudgetBlissTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B6B63729735188003DF4A8 /* BudgetBlissTests.swift */; };
 		F9B6B64229735188003DF4A8 /* BudgetBlissUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B6B64129735188003DF4A8 /* BudgetBlissUITests.swift */; };
 		F9B6B64429735188003DF4A8 /* BudgetBlissUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B6B64329735188003DF4A8 /* BudgetBlissUITestsLaunchTests.swift */; };
+		F9B91CBF297D2D4A00C83FA6 /* CurrencyField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B91CBE297D2D4A00C83FA6 /* CurrencyField.swift */; };
+		F9B91CC1297DCA6E00C83FA6 /* OutlinedTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B91CC0297DCA6E00C83FA6 /* OutlinedTextFieldStyle.swift */; };
 		F9C6C987297B1B9A00DD2D70 /* CustomAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C6C986297B1B9A00DD2D70 /* CustomAddButton.swift */; };
+		F9E603F4297C94BC0054258F /* TransactionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E603F3297C94BC0054258F /* TransactionService.swift */; };
+		F9E603F6297C98370054258F /* TransactionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E603F5297C98370054258F /* TransactionRowView.swift */; };
 		F9F013B62975DED000229B52 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F013B52975DED000229B52 /* Constants.swift */; };
 		F9F013B82975E20000229B52 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F013B72975E20000229B52 /* Transaction.swift */; };
 		F9F12C2629748C8200F815E3 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F12C2529748C8200F815E3 /* MainTabView.swift */; };
@@ -46,6 +61,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F96DC68C297C476A00047430 /* FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
+		F96DC690297C48E000047430 /* ServiceErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceErrors.swift; sourceTree = "<group>"; };
+		F96DC692297C4B1C00047430 /* FirebaseService+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FirebaseService+Extension.swift"; sourceTree = "<group>"; };
+		F96DC696297C4E0B00047430 /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
+		F96DC69A297C7C3D00047430 /* TransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewModel.swift; sourceTree = "<group>"; };
+		F99F1A27297B3ACB000D9EA4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F99F1A38297B3EC4000D9EA4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F9B26F4E29773C59003192B3 /* CurrencyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyLabel.swift; sourceTree = "<group>"; };
 		F9B26F5029773FCF003192B3 /* NumberFormatter+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NumberFormatter+Extension.swift"; sourceTree = "<group>"; };
 		F9B6B62329735187003DF4A8 /* BudgetBliss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudgetBliss.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,7 +79,11 @@
 		F9B6B63D29735188003DF4A8 /* BudgetBlissUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudgetBlissUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B6B64129735188003DF4A8 /* BudgetBlissUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetBlissUITests.swift; sourceTree = "<group>"; };
 		F9B6B64329735188003DF4A8 /* BudgetBlissUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetBlissUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F9B91CBE297D2D4A00C83FA6 /* CurrencyField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyField.swift; sourceTree = "<group>"; };
+		F9B91CC0297DCA6E00C83FA6 /* OutlinedTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlinedTextFieldStyle.swift; sourceTree = "<group>"; };
 		F9C6C986297B1B9A00DD2D70 /* CustomAddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAddButton.swift; sourceTree = "<group>"; };
+		F9E603F3297C94BC0054258F /* TransactionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionService.swift; sourceTree = "<group>"; };
+		F9E603F5297C98370054258F /* TransactionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRowView.swift; sourceTree = "<group>"; };
 		F9F013B52975DED000229B52 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		F9F013B72975E20000229B52 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
 		F9F12C2529748C8200F815E3 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
@@ -75,6 +101,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F99F1A2B297B3B71000D9EA4 /* FirebaseAuth in Frameworks */,
+				F99F1A31297B3B71000D9EA4 /* FirebaseStorage in Frameworks */,
+				F99F1A2D297B3B71000D9EA4 /* FirebaseFirestore in Frameworks */,
+				F99F1A2F297B3B71000D9EA4 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +125,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F96DC67E297C0BAA00047430 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		F96DC685297C3D2600047430 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F96DC68C297C476A00047430 /* FirebaseService.swift */,
+				F9E603F3297C94BC0054258F /* TransactionService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		F9B6B61A29735187003DF4A8 = {
 			isa = PBXGroup;
 			children = (
@@ -120,9 +166,10 @@
 			children = (
 				F9F12C1E29748B6600F815E3 /* Application */,
 				F9F12C1F29748BF300F815E3 /* Models */,
-				F9F12C2029748BFC00F815E3 /* Views */,
 				F9F12C2129748C0A00F815E3 /* ViewModels */,
-				F9F12C2229748C1400F815E3 /* Services */,
+				F9F12C2029748BFC00F815E3 /* Views */,
+				F96DC67E297C0BAA00047430 /* Repositories */,
+				F96DC685297C3D2600047430 /* Services */,
 				F9F12C2429748C3400F815E3 /* Helpers */,
 				F9F12C2329748C2C00F815E3 /* Extensions */,
 				F9B6B62C29735188003DF4A8 /* Preview Content */,
@@ -160,6 +207,7 @@
 			children = (
 				F9B6B62629735187003DF4A8 /* BudgetBlissApp.swift */,
 				F9B6B62A29735188003DF4A8 /* Assets.xcassets */,
+				F99F1A27297B3ACB000D9EA4 /* GoogleService-Info.plist */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -168,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				F9F013B72975E20000229B52 /* Transaction.swift */,
+				F99F1A38297B3EC4000D9EA4 /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -189,21 +238,17 @@
 		F9F12C2129748C0A00F815E3 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				F96DC696297C4E0B00047430 /* TransactionListViewModel.swift */,
+				F96DC69A297C7C3D00047430 /* TransactionViewModel.swift */,
 			);
 			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		F9F12C2229748C1400F815E3 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
 			sourceTree = "<group>";
 		};
 		F9F12C2329748C2C00F815E3 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				F9B26F5029773FCF003192B3 /* NumberFormatter+Extension.swift */,
+				F96DC692297C4B1C00047430 /* FirebaseService+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -212,6 +257,8 @@
 			isa = PBXGroup;
 			children = (
 				F9F013B52975DED000229B52 /* Constants.swift */,
+				F96DC690297C48E000047430 /* ServiceErrors.swift */,
+				F9B91CC0297DCA6E00C83FA6 /* OutlinedTextFieldStyle.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -219,10 +266,12 @@
 		F9F12C332974981700F815E3 /* ViewComponents */ = {
 			isa = PBXGroup;
 			children = (
+				F9E603F5297C98370054258F /* TransactionRowView.swift */,
 				F9F12C342974988500F815E3 /* BalanceCardView.swift */,
 				F9F12C36297498DD00F815E3 /* GradientCard.swift */,
 				F9B26F4E29773C59003192B3 /* CurrencyLabel.swift */,
 				F9C6C986297B1B9A00DD2D70 /* CustomAddButton.swift */,
+				F9B91CBE297D2D4A00C83FA6 /* CurrencyField.swift */,
 			);
 			path = ViewComponents;
 			sourceTree = "<group>";
@@ -243,6 +292,12 @@
 			dependencies = (
 			);
 			name = BudgetBliss;
+			packageProductDependencies = (
+				F99F1A2A297B3B71000D9EA4 /* FirebaseAuth */,
+				F99F1A2C297B3B71000D9EA4 /* FirebaseFirestore */,
+				F99F1A2E297B3B71000D9EA4 /* FirebaseFirestoreSwift */,
+				F99F1A30297B3B71000D9EA4 /* FirebaseStorage */,
+			);
 			productName = BudgetBliss;
 			productReference = F9B6B62329735187003DF4A8 /* BudgetBliss.app */;
 			productType = "com.apple.product-type.application";
@@ -315,6 +370,9 @@
 				Base,
 			);
 			mainGroup = F9B6B61A29735187003DF4A8;
+			packageReferences = (
+				F99F1A29297B3B71000D9EA4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = F9B6B62429735187003DF4A8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -333,6 +391,7 @@
 			files = (
 				F9B6B62E29735188003DF4A8 /* Preview Assets.xcassets in Resources */,
 				F9B6B62B29735188003DF4A8 /* Assets.xcassets in Resources */,
+				F99F1A28297B3ACB000D9EA4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,18 +418,28 @@
 			files = (
 				F9F013B82975E20000229B52 /* Transaction.swift in Sources */,
 				F9B26F4F29773C59003192B3 /* CurrencyLabel.swift in Sources */,
+				F96DC693297C4B1C00047430 /* FirebaseService+Extension.swift in Sources */,
+				F96DC68D297C476A00047430 /* FirebaseService.swift in Sources */,
 				F9F12C2E29748CD200F815E3 /* WalletView.swift in Sources */,
 				F9F12C2829748C9F00F815E3 /* HomeView.swift in Sources */,
 				F9C6C987297B1B9A00DD2D70 /* CustomAddButton.swift in Sources */,
 				F9F12C2A29748CAF00F815E3 /* DashboardView.swift in Sources */,
 				F9F12C37297498DD00F815E3 /* GradientCard.swift in Sources */,
+				F9E603F4297C94BC0054258F /* TransactionService.swift in Sources */,
 				F9F12C352974988500F815E3 /* BalanceCardView.swift in Sources */,
+				F96DC697297C4E0B00047430 /* TransactionListViewModel.swift in Sources */,
 				F9B26F5129773FCF003192B3 /* NumberFormatter+Extension.swift in Sources */,
+				F96DC691297C48E000047430 /* ServiceErrors.swift in Sources */,
+				F9B91CBF297D2D4A00C83FA6 /* CurrencyField.swift in Sources */,
 				F9F013B62975DED000229B52 /* Constants.swift in Sources */,
 				F9F12C2C29748CB700F815E3 /* ProfileView.swift in Sources */,
+				F99F1A39297B3EC4000D9EA4 /* User.swift in Sources */,
 				F9F12C3029748D0900F815E3 /* CreateView.swift in Sources */,
 				F9B6B62729735187003DF4A8 /* BudgetBlissApp.swift in Sources */,
 				F9F12C2629748C8200F815E3 /* MainTabView.swift in Sources */,
+				F9B91CC1297DCA6E00C83FA6 /* OutlinedTextFieldStyle.swift in Sources */,
+				F9E603F6297C98370054258F /* TransactionRowView.swift in Sources */,
+				F96DC69B297C7C3D00047430 /* TransactionViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,7 +526,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -511,7 +580,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -703,6 +772,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F99F1A29297B3B71000D9EA4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F99F1A2A297B3B71000D9EA4 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F99F1A29297B3B71000D9EA4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F99F1A2C297B3B71000D9EA4 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F99F1A29297B3B71000D9EA4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		F99F1A2E297B3B71000D9EA4 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F99F1A29297B3B71000D9EA4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		F99F1A30297B3B71000D9EA4 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F99F1A29297B3B71000D9EA4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F9B6B61B29735187003DF4A8 /* Project object */;
 }

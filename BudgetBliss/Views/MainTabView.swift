@@ -16,7 +16,7 @@ struct MainTabView: View {
 		ZStack {
 			TabView(selection: $currentTab) {
 				NavigationView {
-					HomeView()
+					HomeView(viewModel: TransactionListViewModel())
 						.navigationTitle(Tab.home.rawValue)
 						.navigationBarTitleDisplayMode(.inline)
 				}
@@ -58,10 +58,10 @@ struct MainTabView: View {
 				.position(x: SCREEN_SIZE.width / 2, y: SCREEN_SIZE.height - 124)
 		}
 		.sheet(isPresented: $addIncome) {
-			CreateView(selectedType: .income, title: Titles.addIncome.rawValue)
+			CreateView(selectedType: .income, title: Titles.addIncome.rawValue, currencySign: "$")
 		}
 		.sheet(isPresented: $addExpense) {
-			CreateView(selectedType: .expense, title: Titles.addExpense.rawValue)
+			CreateView(selectedType: .expense, title: Titles.addExpense.rawValue, currencySign: "$")
 		}
 	}
 }

@@ -70,8 +70,10 @@ private struct SecondaryButton: View {
 		Button {
 			if type == .expense {
 				addExpense.toggle()
+				self.open.toggle()
 			} else {
 				addIncome.toggle()
+				self.open.toggle()
 			}
 		} label: {
 			Image(systemName: icon)
